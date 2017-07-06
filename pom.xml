@@ -52,7 +52,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<app.name>mkey</app.name>
 		<junit.version>4.12</junit.version>
-		<slf4j.version>1.8.0-alpha2</slf4j.version>
+		<slf4j.version>1.7.25</slf4j.version>
 	</properties>
 	<build>
 		<plugins>
