@@ -133,9 +133,9 @@ final class CacheImpl implements Cache
                     {
                         Thread.interrupted(); // Clear it
                     }
-                    catch (final Exception e)
+                    catch (final Throwable t)
                     {
-                        logger.warn(e.getMessage(), e);
+                        logger.error(t.getMessage(), t);
                     }
                 }
             }
