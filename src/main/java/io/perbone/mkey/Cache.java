@@ -92,7 +92,7 @@ public interface Cache
      * Remove all entries from this cache.
      * 
      * @throws UnsupportedOperationException
-     *             if the <tt>clear</tt> operation is not supported by this map
+     *             if the <tt>clear</tt> operation is not supported by this cache implementation
      */
     void clear() throws UnsupportedOperationException;
 
